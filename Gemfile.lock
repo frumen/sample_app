@@ -172,6 +172,7 @@ GEM
     win32-api (1.4.8-x86-mingw32)
     win32-process (0.6.5)
       windows-pr (>= 1.1.2)
+    win32console (1.3.0-x86-mingw32)
     windows-api (0.4.1)
       win32-api (>= 1.4.5)
     windows-pr (1.2.1)
@@ -205,3 +206,4 @@ DEPENDENCIES
   sqlite3 (= 1.3.5)
   uglifier (= 1.2.3)
   will_paginate (= 3.0.3)
+  win32console (= 1.3.0)
