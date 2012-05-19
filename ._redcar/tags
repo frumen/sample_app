@@ -1,4 +1,4 @@
-1337437563
+1337437804
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 Application	C:/Sites/sample_app/config/application.rb	  class Application 
