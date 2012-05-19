@@ -1,0 +1,9 @@
+--- 
+cursor_positions: 
+  - :path: spec\factories.rb
+    :cursor_offset: 175
+    :timestamp: 2012-05-19 10:38:41.840000 -03:00
+  - :path: app\views\shared\_error_messages.html.erb
+    :cursor_offset: 318
+    :timestamp: 2012-05-19 11:16:39.727000 -03:00
+files_to_retain: 0
