@@ -1,0 +1,27 @@
+<% provide(:title, "Cambiar mis cosas") %> 
+<h1>Vas a cambiar tus cosas?</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+  <%= form_for(@user) do |f| %>
+      <%= render 'shared/error_messages' %>
+
+      <%= f.label :name, "Dijiste que tu nombre era..." %>
+      <%= f.text_field :name %>
+
+      <%= f.label :email, "Y tu correo..." %>
+      <%= f.text_field :email %>
+
+      <%= f.label :password, "Por si querés cambiar la clave super secreta..." %>
+      <%= f.password_field :password %>
+
+      <%= f.label :password_confirmation, "Y repetila, dale" %>
+      <%= f.password_field :password_confirmation %>
+      <center>
+      <%= f.submit "Cambiar lo que soy!", class: "btn btn-large btn-primary" %></center>
+    <% end %>
+<p>
+  <%= gravatar_for @user, "100x100" %><p>
+    <a href="http://gravatar.com/emails">Cambiar fotito</a>
+  </div>
+</div>

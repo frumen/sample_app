@@ -1,4 +1,4 @@
-1337452772
+1337467824
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 AddRememberTokenToUsers	C:/Sites/sample_app/db/migrate/20120519175652_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
@@ -29,12 +29,15 @@ change	C:/Sites/sample_app/db/migrate/20120518100259_ass_index_to_users_email.rb
 change	C:/Sites/sample_app/db/migrate/20120514100010_create_users.rb	  def change
 change	C:/Sites/sample_app/db/migrate/20120519175652_add_remember_token_to_users.rb	  def change
 contact	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def contact
+correct_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def correct_user
 create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
 create	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def create
 create_remember_token	C:/Sites/sample_app/app/models/user.rb	    def create_remember_token
 current_user	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
+current_user?	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
 destroy	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def destroy
+edit	C:/Sites/sample_app/app/controllers/users_controller.rb	  def edit
 full_title	C:/Sites/sample_app/spec/support/utilities.rb	def full_title(page_title)
 full_title	C:/Sites/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 gravatar_for	C:/Sites/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, tam)
@@ -43,6 +46,7 @@ home	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Sites/sample_app/app/controllers/users_controller.rb	  def new
 new	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def new
 profile page	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
+redirect_back_or	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
 return value of authenticate method	C:/Sites/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
 should be invalid	C:/Sites/sample_app/spec/models/user_spec.rb	it "should be invalid" do
 should be valid	C:/Sites/sample_app/spec/models/user_spec.rb	it "should be valid" do
@@ -52,8 +56,11 @@ show	C:/Sites/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
 sign_out	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
+signed_in_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def signed_in_user
 signup	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
+store_location	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def store_location
+update	C:/Sites/sample_app/app/controllers/users_controller.rb	  def update
 when email address is already taken	C:/Sites/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email address is already taken	C:/Sites/sample_app/spec/models/user_spec.rb	describe "when email address is already taken" do
 when email format is invalid	C:/Sites/sample_app/spec/models/user_spec.rb	describe "when email format is invalid" do

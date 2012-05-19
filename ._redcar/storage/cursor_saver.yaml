@@ -12,9 +12,6 @@ cursor_positions:
   - :path: app/helpers/users_helper.rb
     :cursor_offset: 244
     :timestamp: 2012-05-19 13:13:29.419000 -03:00
-  - :path: app/views/users/show.html.erb
-    :cursor_offset: 171
-    :timestamp: 2012-05-19 13:15:12.694000 -03:00
   - :path: config/locales/en.yml
     :cursor_offset: 302
     :timestamp: 2012-05-19 13:16:35.101000 -03:00
@@ -63,16 +60,24 @@ cursor_positions:
   - :path: app/assets/javascripts/application.js
     :cursor_offset: 663
     :timestamp: 2012-05-19 15:25:18.841000 -03:00
-  - :path: app/views/layouts/_header.html.erb
-    :cursor_offset: 1127
-    :timestamp: 2012-05-19 15:32:46.375000 -03:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 142
+    :timestamp: 2012-05-19 13:15:12.694000 -03:00
+    :selection_offset: 131
+    :block_selection_mode: false
   - :path: app/controllers/users_controller.rb
-    :cursor_offset: 267
-    :timestamp: 2012-05-19 15:35:13.998000 -03:00
+    :cursor_offset: 408
+    :timestamp: 2012-05-19 19:49:36.895000 -03:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 0
+    :timestamp: 2012-05-19 18:47:28.013000 -03:00
+  - :path: app/views/layouts/_header.html.erb
+    :cursor_offset: 813
+    :timestamp: 2012-05-19 18:52:21.931000 -03:00
   - :path: app/helpers/sessions_helper.rb
-    :cursor_offset: 436
-    :timestamp: 2012-05-19 15:38:12.119000 -03:00
+    :cursor_offset: 630
+    :timestamp: 2012-05-19 19:42:39.673000 -03:00
   - :path: app/controllers/sessions_controller.rb
-    :cursor_offset: 425
-    :timestamp: 2012-05-19 15:36:22.721000 -03:00
+    :cursor_offset: 337
+    :timestamp: 2012-05-19 19:50:24.322000 -03:00
 files_to_retain: 0

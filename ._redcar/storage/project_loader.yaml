@@ -1,4 +1,7 @@
 --- 
 open_files: 
   - app/controllers/users_controller.rb
-  - app/assets/stylesheets/custom.css.scss
+  - app/views/users/edit.html.erb
+  - app/views/layouts/_header.html.erb
+  - app/helpers/sessions_helper.rb
+  - app/controllers/sessions_controller.rb
