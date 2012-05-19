@@ -1,5 +1,5 @@
 <% provide(:title, 'Sign up') %>
-<h1>Sign up</h1>
+<h1>Registrate!</h1>
 <div class="row">
   <div class="span6 offset3">
     <%= form_for(@user) do |f| %>
@@ -8,10 +8,10 @@
       <%= f.label :name, "Tu nombre?" %>
       <%= f.text_field :name %>
 
-      <%= f.label :email, "Aca va tu correo" %>
+      <%= f.label :email, "Acá va tu correo" %>
       <%= f.text_field :email %>
 
-      <%= f.label :password, "Necesitas una claveee" %>
+      <%= f.label :password, "Necesitás una clave" %>
       <%= f.password_field :password %>
 
       <%= f.label :password_confirmation, "Ponela otra vez!" %>
@@ -19,7 +19,7 @@
       <p>
       <p>
         <center>
-      <%= f.submit "Bring it on!", class: "btn btn-large btn-primary" %>
+      <%= f.submit "Listo!", class: "btn btn-large btn-primary" %>
         </center>
     <% end %>
   </div>

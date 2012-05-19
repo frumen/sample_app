@@ -1,4 +1,4 @@
-1337437804
+1337447844
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 Application	C:/Sites/sample_app/config/application.rb	  class Application 
@@ -26,7 +26,7 @@ contact	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def con
 create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
 full_title	C:/Sites/sample_app/spec/support/utilities.rb	def full_title(page_title)
 full_title	C:/Sites/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
-gravatar_for	C:/Sites/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user)
+gravatar_for	C:/Sites/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, tam)
 help	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def home
 new	C:/Sites/sample_app/app/controllers/users_controller.rb	  def new

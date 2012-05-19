@@ -1,3 +1,4 @@
 --- 
-open_files: []
-
+open_files: 
+  - app/controllers/users_controller.rb
+  - app/assets/stylesheets/custom.css.scss
