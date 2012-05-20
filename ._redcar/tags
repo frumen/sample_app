@@ -1,5 +1,6 @@
-1337467824
+1337527333
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
+AddAdminToUsers	C:/Sites/sample_app/db/migrate/20120520150401_add_admin_to_users.rb	class AddAdminToUsers 
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
 AddRememberTokenToUsers	C:/Sites/sample_app/db/migrate/20120519175652_add_remember_token_to_users.rb	class AddRememberTokenToUsers 
 Application	C:/Sites/sample_app/config/application.rb	  class Application 
@@ -24,27 +25,31 @@ UsersController	C:/Sites/sample_app/app/controllers/users_controller.rb	class Us
 UsersHelper	C:/Sites/sample_app/app/helpers/users_helper.rb	module UsersHelper
 VALID_EMAIL_REGEX	C:/Sites/sample_app/app/models/user.rb	  VALID_EMAIL_REGEX =
 about	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def about
+admin_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def admin_user
 change	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	  def change
 change	C:/Sites/sample_app/db/migrate/20120518100259_ass_index_to_users_email.rb	  def change
 change	C:/Sites/sample_app/db/migrate/20120514100010_create_users.rb	  def change
 change	C:/Sites/sample_app/db/migrate/20120519175652_add_remember_token_to_users.rb	  def change
+change	C:/Sites/sample_app/db/migrate/20120520150401_add_admin_to_users.rb	  def change
 contact	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def contact
 correct_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def correct_user
-create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
 create	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def create
+create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
 create_remember_token	C:/Sites/sample_app/app/models/user.rb	    def create_remember_token
 current_user	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 current_user?	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
 destroy	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def destroy
+destroy	C:/Sites/sample_app/app/controllers/users_controller.rb	  def destroy
 edit	C:/Sites/sample_app/app/controllers/users_controller.rb	  def edit
 full_title	C:/Sites/sample_app/spec/support/utilities.rb	def full_title(page_title)
 full_title	C:/Sites/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 gravatar_for	C:/Sites/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, tam)
 help	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def home
-new	C:/Sites/sample_app/app/controllers/users_controller.rb	  def new
+index	C:/Sites/sample_app/app/controllers/users_controller.rb	  def index
 new	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def new
+new	C:/Sites/sample_app/app/controllers/users_controller.rb	  def new
 profile page	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
 redirect_back_or	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
 return value of authenticate method	C:/Sites/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do
