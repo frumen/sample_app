@@ -2,6 +2,6 @@
   <%= gravatar_for user, size: "52x52" %>
   <%= link_to user.name, user %>
   <% if current_user.admin? && !current_user?(user) %>
-    | <%= link_to "Volarlo", user, method: :delete, confirm: "Seguro? Mira que se va..." %>
+    | <%= link_to "Get the fuck out of here!", user, method: :delete, confirm: "Seguro? Mira que se va..." %>
   <% end %>
 </li>

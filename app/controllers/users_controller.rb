@@ -2,9 +2,10 @@ class UsersController < ApplicationController
   before_filter :signed_in_user, only: [:edit, :update, :index, :destroy]
   before_filter :correct_user,   only: [:edit, :update]
   before_filter :admin_user, only: :destroy
+  before_filter :entrado_quiere_entrar, only: [:new, :create]
   
   def new
-    @user = User.new
+      @user = User.new
   end
   
   def show
@@ -17,7 +18,6 @@ class UsersController < ApplicationController
       sign_in @user
       flash[:success] = "Ya sos usuario!"
       redirect_to @user
-    else
       render 'new'
     end
   end
@@ -37,6 +37,7 @@ class UsersController < ApplicationController
   
   def index
     @users = User.paginate(page: params[:page])
+    #@users.sort!
   end
   
   def destroy
@@ -61,6 +62,12 @@ class UsersController < ApplicationController
     
     def admin_user
       redirect_to(root_path) unless current_user.admin?
+    end
+    
+    def entrado_quiere_entrar
+      if signed_in?
+        redirect_to root_path, notice: "Pero ya estas loggeado!"     
+      end
     end
     
 end

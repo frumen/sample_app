@@ -1,7 +1,6 @@
 --- 
 open_files: 
   - app/controllers/users_controller.rb
-  - app/views/users/edit.html.erb
-  - app/views/layouts/_header.html.erb
-  - app/helpers/sessions_helper.rb
-  - app/controllers/sessions_controller.rb
+  - app/views/users/index.html.erb
+  - lib/tasks/sample_data.rake
+  - app/views/users/_user.html.erb
