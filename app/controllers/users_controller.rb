@@ -19,6 +19,7 @@ class UsersController < ApplicationController
       sign_in @user
       flash[:success] = "Ya sos usuario!"
       redirect_to @user
+    else
       render 'new'
     end
   end
