@@ -1,4 +1,4 @@
-1337540584
+1337545524
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	C:/Sites/sample_app/db/migrate/20120520150401_add_admin_to_users.rb	class AddAdminToUsers 
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -9,10 +9,13 @@ ApplicationHelper	C:/Sites/sample_app/app/helpers/application_helper.rb	module A
 AssIndexToUsersEmail	C:/Sites/sample_app/db/migrate/20120518100259_ass_index_to_users_email.rb	class AssIndexToUsersEmail 
 AuthenticationPages	C:/Sites/sample_app/spec/requests/authentication_pages_spec.rb	describe "AuthenticationPages" do
 Contact page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "Contact page" do
+CreateMicroposts	C:/Sites/sample_app/db/migrate/20120520190753_create_microposts.rb	class CreateMicroposts 
 CreateUsers	C:/Sites/sample_app/db/migrate/20120514100010_create_users.rb	class CreateUsers 
 GET /authentication_pages	C:/Sites/sample_app/spec/requests/authentication_pages_spec.rb	describe "GET /authentication_pages" do
 Help page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "Home page" do
+Micropost	C:/Sites/sample_app/app/models/micropost.rb	class Micropost 
+MicropostsController	C:/Sites/sample_app/app/controllers/microposts_controller.rb	class MicropostsController 
 SampleApp	C:/Sites/sample_app/config/application.rb	module SampleApp
 SessionsController	C:/Sites/sample_app/app/controllers/sessions_controller.rb	class SessionsController 
 SessionsHelper	C:/Sites/sample_app/app/helpers/sessions_helper.rb	module SessionsHelper
@@ -31,18 +34,23 @@ change	C:/Sites/sample_app/db/migrate/20120518100259_ass_index_to_users_email.rb
 change	C:/Sites/sample_app/db/migrate/20120514100010_create_users.rb	  def change
 change	C:/Sites/sample_app/db/migrate/20120519175652_add_remember_token_to_users.rb	  def change
 change	C:/Sites/sample_app/db/migrate/20120520150401_add_admin_to_users.rb	  def change
+change	C:/Sites/sample_app/db/migrate/20120520190753_create_microposts.rb	  def change
 contact	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def contact
 correct_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def correct_user
+correct_user	C:/Sites/sample_app/app/controllers/microposts_controller.rb	    def correct_user
 create	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def create
 create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
+create	C:/Sites/sample_app/app/controllers/microposts_controller.rb	  def create
 create_remember_token	C:/Sites/sample_app/app/models/user.rb	    def create_remember_token
 current_user	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 current_user?	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
 destroy	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def destroy
 destroy	C:/Sites/sample_app/app/controllers/users_controller.rb	  def destroy
+destroy	C:/Sites/sample_app/app/controllers/microposts_controller.rb	  def destroy
 edit	C:/Sites/sample_app/app/controllers/users_controller.rb	  def edit
 entrado_quiere_entrar	C:/Sites/sample_app/app/controllers/users_controller.rb	    def entrado_quiere_entrar
+feed	C:/Sites/sample_app/app/models/user.rb	  def feed
 full_title	C:/Sites/sample_app/spec/support/utilities.rb	def full_title(page_title)
 full_title	C:/Sites/sample_app/app/helpers/application_helper.rb	  def full_title(page_title)
 gravatar_for	C:/Sites/sample_app/app/helpers/users_helper.rb	  def gravatar_for(user, tam)
@@ -62,7 +70,7 @@ show	C:/Sites/sample_app/app/controllers/users_controller.rb	  def show
 sign_in	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def sign_in(user)
 sign_out	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def sign_out
 signed_in?	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def signed_in?
-signed_in_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def signed_in_user
+signed_in_user	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def signed_in_user
 signup	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "signup" do
 signup page	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "signup page" do
 store_location	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def store_location

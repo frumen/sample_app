@@ -1,0 +1,11 @@
+<li>
+  <span class="content"><%= micropost.content %></span>
+  <span class="timestamp">
+    Lo dijo hace <%= time_ago_in_words(micropost.created_at) %>.
+  </span>
+  <% if current_user?(micropost.user) %>
+    <%= link_to "Olvidemos esto...", micropost, method:  :delete,
+                                     confirm: "Seguro? Te arrepentis de lo que dijiste?!",
+                                     title:   micropost.content %>
+  <% end %>
+</li>

@@ -21,6 +21,13 @@ module SessionsHelper
     user == current_user
   end
   
+  def signed_in_user
+    unless signed_in?
+      store_location
+      redirect_to signin_path, notice: "Primero loggeate loco!!."
+    end
+  end
+  
   def sign_out
     current_user = nil
     cookies.delete(:remember_token)

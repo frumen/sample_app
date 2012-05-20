@@ -30,9 +30,6 @@ cursor_positions:
   - :path: db/migrate/20120519175652_add_remember_token_to_users.rb
     :cursor_offset: 162
     :timestamp: 2012-05-19 14:57:16.991000 -03:00
-  - :path: app/models/user.rb
-    :cursor_offset: 897
-    :timestamp: 2012-05-19 15:04:07.263000 -03:00
   - :path: app/controllers/application_controller.rb
     :cursor_offset: 105
     :timestamp: 2012-05-19 14:52:43.675000 -03:00
@@ -42,39 +39,15 @@ cursor_positions:
   - :path: app/views/layouts/application.html.erb
     :cursor_offset: 106
     :timestamp: 2012-05-19 13:19:22.992000 -03:00
-  - :path: config/routes.rb
-    :cursor_offset: 244
-    :timestamp: 2012-05-19 14:27:13.465000 -03:00
   - :path: app/assets/javascripts/application.js
     :cursor_offset: 663
     :timestamp: 2012-05-19 15:25:18.841000 -03:00
-  - :path: app/helpers/sessions_helper.rb
-    :cursor_offset: 630
-    :timestamp: 2012-05-19 19:42:39.673000 -03:00
-  - :path: app/assets/stylesheets/custom.css.scss
-    :cursor_offset: 2291
-    :timestamp: 2012-05-20 11:37:16.143000 -03:00
-  - :path: app/views/users/show.html.erb
-    :cursor_offset: 134
-    :timestamp: 2012-05-19 13:15:12.694000 -03:00
   - :path: app/views/layouts/_header.html.erb
     :cursor_offset: 85
     :timestamp: 2012-05-20 11:44:49.381000 -03:00
   - :path: db/migrate/20120520150401_add_admin_to_users.rb
     :cursor_offset: 116
     :timestamp: 2012-05-20 12:04:33.647000 -03:00
-  - :path: lib/tasks/sample_data.rake
-    :cursor_offset: 352
-    :timestamp: 2012-05-20 12:14:28.602000 -03:00
-  - :path: app/controllers/users_controller.rb
-    :cursor_offset: 1296
-    :timestamp: 2012-05-20 12:22:12.985000 -03:00
-  - :path: app/views/users/index.html.erb
-    :cursor_offset: 84
-    :timestamp: 2012-05-20 12:00:55.620000 -03:00
-  - :path: app/views/static_pages/home.html.erb
-    :cursor_offset: 310
-    :timestamp: 2012-05-19 14:02:19.231000 -03:00
   - :path: app/helpers/users_helper.rb
     :cursor_offset: 331
     :timestamp: 2012-05-19 13:13:29.419000 -03:00
@@ -84,10 +57,70 @@ cursor_positions:
   - :path: app/controllers/sessions_controller.rb
     :cursor_offset: 244
     :timestamp: 2012-05-19 19:50:24.322000 -03:00
-  - :path: app/views/users/edit.html.erb
-    :cursor_offset: 879
-    :timestamp: 2012-05-20 15:32:34.958000 -03:00
+  - :path: db/migrate/20120520190753_create_microposts.rb
+    :cursor_offset: 236
+    :timestamp: 2012-05-20 16:09:06.391000 -03:00
+  - :path: config/application.rb
+    :cursor_offset: 2685
+    :timestamp: 2012-05-20 16:20:21.797000 -03:00
+  - :path: app/models/micropost.rb
+    :cursor_offset: 245
+    :timestamp: 2012-05-20 16:26:24.883000 -03:00
+  - :path: config/routes.rb
+    :cursor_offset: 385
+    :timestamp: 2012-05-20 16:44:17.532000 -03:00
+  - :path: app/assets/stylesheets/custom.css.scss
+    :cursor_offset: 2559
+    :timestamp: 2012-05-20 16:39:55.231000 -03:00
+  - :path: app/helpers/sessions_helper.rb
+    :cursor_offset: 182
+    :timestamp: 2012-05-20 16:46:55.521000 -03:00
+  - :path: lib/tasks/sample_data.rake
+    :cursor_offset: 794
+    :timestamp: 2012-05-20 16:36:28.106000 -03:00
+  - :path: app/controllers/users_controller.rb
+    :cursor_offset: 317
+    :timestamp: 2012-05-20 16:47:23.039000 -03:00
+  - :path: app/views/users/show.html.erb
+    :cursor_offset: 288
+    :timestamp: 2012-05-20 16:29:43.732000 -03:00
   - :path: app/views/users/new.html.erb
-    :cursor_offset: 398
-    :timestamp: 2012-05-19 14:35:04.554000 -03:00
+    :cursor_offset: 730
+    :timestamp: 2012-05-20 17:01:16.113000 -03:00
+  - :path: app/views/shared/_error_messages.html.erb
+    :cursor_offset: 310
+    :timestamp: 2012-05-20 17:03:21.124000 -03:00
+  - :path: app/views/shared/_micropost_form.html.erb
+    :cursor_offset: 173
+    :timestamp: 2012-05-20 16:57:20.296000 -03:00
+  - :path: app/views/users/edit.html.erb
+    :cursor_offset: 217
+    :timestamp: 2012-05-20 17:01:42.281000 -03:00
+  - :path: app/models/user.rb
+    :cursor_offset: 839
+    :timestamp: 2012-05-20 17:07:07.446000 -03:00
+  - :path: app/views/users/index.html.erb
+    :cursor_offset: 62
+    :timestamp: 2012-05-20 12:00:55.620000 -03:00
+  - :path: app/views/static_pages/home.html.erb
+    :cursor_offset: 321
+    :timestamp: 2012-05-20 17:13:31.334000 -03:00
+  - :path: app/views/shared/_user_info.html.erb
+    :cursor_offset: 80
+    :timestamp: 2012-05-20 16:55:17.445000 -03:00
+  - :path: app/views/shared/_feed.html.erb
+    :cursor_offset: 124
+    :timestamp: 2012-05-20 17:17:21.337000 -03:00
+  - :path: app/controllers/static_pages_controller.rb
+    :cursor_offset: 236
+    :timestamp: 2012-05-20 17:09:57.660000 -03:00
+  - :path: app/views/microposts/_micropost.html.erb
+    :cursor_offset: 360
+    :timestamp: 2012-05-20 17:22:25.367000 -03:00
+  - :path: app/views/shared/_feed_item.html.erb
+    :cursor_offset: 644
+    :timestamp: 2012-05-20 17:23:41.709000 -03:00
+  - :path: app/controllers/microposts_controller.rb
+    :cursor_offset: 644
+    :timestamp: 2012-05-20 17:24:42.375000 -03:00
 files_to_retain: 0

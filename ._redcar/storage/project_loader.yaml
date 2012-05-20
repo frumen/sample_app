@@ -1,6 +1,4 @@
 --- 
 open_files: 
-  - app/controllers/users_controller.rb
-  - app/views/users/index.html.erb
-  - lib/tasks/sample_data.rake
-  - app/views/users/_user.html.erb
+  - app/views/shared/_feed_item.html.erb
+  - app/controllers/microposts_controller.rb
