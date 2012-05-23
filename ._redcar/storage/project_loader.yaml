@@ -3,5 +3,5 @@ open_files:
   - app/assets/stylesheets/custom.css.scss
   - app/views/shared/_stats.html.erb
   - app/models/user.rb
-  - lib/tasks/sample_data.rake
   - app/models/relationship.rb
+  - app/views/static_pages/home.html.erb
