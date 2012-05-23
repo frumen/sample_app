@@ -1,4 +1,4 @@
-1337812278
+1337813381
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	C:/Sites/sample_app/db/migrate/20120520150401_add_admin_to_users.rb	class AddAdminToUsers 
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
