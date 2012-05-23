@@ -1,4 +1,7 @@
 --- 
 open_files: 
-  - app/views/shared/_feed_item.html.erb
-  - app/controllers/microposts_controller.rb
+  - app/assets/stylesheets/custom.css.scss
+  - app/views/shared/_stats.html.erb
+  - app/models/user.rb
+  - lib/tasks/sample_data.rake
+  - app/models/relationship.rb
