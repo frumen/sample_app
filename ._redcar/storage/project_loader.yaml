@@ -1,7 +1,5 @@
 --- 
 open_files: 
-  - app/assets/stylesheets/custom.css.scss
-  - app/views/shared/_stats.html.erb
   - app/models/user.rb
-  - app/models/relationship.rb
-  - app/views/static_pages/home.html.erb
+  - app/models/micropost.rb
+  - app/controllers/static_pages_controller.rb
