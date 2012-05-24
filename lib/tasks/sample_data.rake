@@ -1,12 +1,21 @@
 namespace :db do
   desc "Fill database with sample data"
   task populate: :environment do
-    make_users
-    make_microposts
-    make_relationships
+    crear_duenio
+    #make_users
+    #make_microposts
+    #make_relationships
   end
 end
-    
+   
+def crear_duenio
+    admin = User.create!(name: "Federico Frumento",
+                 email: "federicofrumento21@hotmail.com",
+                 password: "123456",
+                 password_confirmation: "123456")
+                admin.toggle!(:admin)
+end
+
 def make_users
     admin = User.create!(name: "Federico Frumento",
                  email: "federicofrumento21@hotmail.com",
