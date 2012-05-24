@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_filter :signed_in_user, only: [:edit, :update, :index, :destroy]
-  before_filter :correct_user,   only: [:edit, :update]
+  before_filter :correct_user,   only: [:edit, :update, :following, :followers]
   before_filter :admin_user, only: :destroy
   before_filter :entrado_quiere_entrar, only: [:new, :create]
   
@@ -42,6 +42,16 @@ class UsersController < ApplicationController
     #@users.sort!
   end
   
+  def following
+    @user = User.find(params[:id])
+    @users = @user.followed_users.paginate(page: params[:page])
+  end
+  
+  def followers
+    @user = User.find(params[:id])
+    @users = @user.followers.paginate(page: params[:page])
+  end
+  
   def destroy
     User.find(params[:id]).destroy
     flash[:success] = "Listo, se fue"
@@ -52,7 +62,10 @@ class UsersController < ApplicationController
 
     def correct_user
       @user = User.find(params[:id])
-      redirect_to(root_path) unless current_user?(@user)
+      if !current_user?(@user)
+        flash[:error] = "No podes hacer eso!"
+        redirect_to(root_path)
+      end
     end
     
     def admin_user

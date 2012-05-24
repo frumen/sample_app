@@ -1,0 +1,10 @@
+<%= provide(:title, 'Los que te escuchan') %>
+<h1>Estos son los que te escuchan...</h1>
+
+<%= will_paginate %>
+
+<ul class="users">
+    <%= render @users %>
+</ul>
+
+<%= will_paginate %>

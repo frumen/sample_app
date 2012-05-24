@@ -1,4 +1,4 @@
-1337814659
+1337823583
 About page	C:/Sites/sample_app/spec/requests/static_pages_spec.rb	describe "About page" do
 AddAdminToUsers	C:/Sites/sample_app/db/migrate/20120520150401_add_admin_to_users.rb	class AddAdminToUsers 
 AddPasswordDigestToUsers	C:/Sites/sample_app/db/migrate/20120518101523_add_password_digest_to_users.rb	class AddPasswordDigestToUsers 
@@ -43,22 +43,24 @@ contact	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def con
 correct_user	C:/Sites/sample_app/app/controllers/microposts_controller.rb	    def correct_user
 correct_user	C:/Sites/sample_app/app/controllers/users_controller.rb	    def correct_user
 create	C:/Sites/sample_app/app/controllers/microposts_controller.rb	  def create
-create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
 create	C:/Sites/sample_app/app/controllers/relationships_controller.rb	  def create
 create	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def create
+create	C:/Sites/sample_app/app/controllers/users_controller.rb	  def create
 create_remember_token	C:/Sites/sample_app/app/models/user.rb	    def create_remember_token
 current_user	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user
 current_user=	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user=(user)
 current_user?	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def current_user?(user)
 destroy	C:/Sites/sample_app/app/controllers/microposts_controller.rb	  def destroy
-destroy	C:/Sites/sample_app/app/controllers/users_controller.rb	  def destroy
 destroy	C:/Sites/sample_app/app/controllers/relationships_controller.rb	  def destroy
 destroy	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def destroy
+destroy	C:/Sites/sample_app/app/controllers/users_controller.rb	  def destroy
 edit	C:/Sites/sample_app/app/controllers/users_controller.rb	  def edit
 entrado_quiere_entrar	C:/Sites/sample_app/app/controllers/users_controller.rb	    def entrado_quiere_entrar
 feed	C:/Sites/sample_app/app/models/user.rb	  def feed
 feed	C:/Sites/sample_app/app/models/user.rb	  def feed
 follow!	C:/Sites/sample_app/app/models/user.rb	  def follow!(other_user)
+followers	C:/Sites/sample_app/app/controllers/users_controller.rb	  def followers
+following	C:/Sites/sample_app/app/controllers/users_controller.rb	  def following
 following?	C:/Sites/sample_app/app/models/user.rb	  def following?(other_user)
 from_users_followed_by	C:/Sites/sample_app/app/models/micropost.rb	  def self.from_users_followed_by(user)
 full_title	C:/Sites/sample_app/spec/support/utilities.rb	def full_title(page_title)
@@ -67,8 +69,8 @@ gravatar_for	C:/Sites/sample_app/app/helpers/users_helper.rb	  def gravatar_for(
 help	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/sample_app/app/controllers/static_pages_controller.rb	  def home
 index	C:/Sites/sample_app/app/controllers/users_controller.rb	  def index
-new	C:/Sites/sample_app/app/controllers/users_controller.rb	  def new
 new	C:/Sites/sample_app/app/controllers/sessions_controller.rb	  def new
+new	C:/Sites/sample_app/app/controllers/users_controller.rb	  def new
 profile page	C:/Sites/sample_app/spec/requests/user_pages_spec.rb	describe "profile page" do
 redirect_back_or	C:/Sites/sample_app/app/helpers/sessions_helper.rb	  def redirect_back_or(default)
 return value of authenticate method	C:/Sites/sample_app/spec/models/user_spec.rb	describe "return value of authenticate method" do

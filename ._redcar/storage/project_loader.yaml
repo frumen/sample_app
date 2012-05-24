@@ -1,5 +1,7 @@
 --- 
 open_files: 
-  - app/models/user.rb
+  - app/views/users/followers.html.erb
+  - app/views/users/following.html.erb
+  - app/controllers/users_controller.rb
   - app/models/micropost.rb
-  - app/controllers/static_pages_controller.rb
+  - app/views/users/index.html.erb
